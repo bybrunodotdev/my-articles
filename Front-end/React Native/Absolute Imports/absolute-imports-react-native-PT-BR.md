@@ -58,7 +58,7 @@ Com tudo configurado, já é possível realizar as importações dos seus arquiv
 
 **@/Pages/Auth/SignIn**
 
-## Uma pitada de _VueJS_ por favor
+## Uma pitada de _VueJS_ por favor 🍲
 
 Estou utilizando o “@” para imitar o _Vuejs_. Utilize o prefixo que você achar interessante. Pode ser o ‘~’ ou ‘#’ por exemplo.
 
@@ -114,7 +114,7 @@ No arquivo de configuração do _eslint_ inclua as seguintes propriedades.
   }
 ```
 
-## Perguntas que parecem idiotas mas não são
+## Perguntas que parecem idiotas mas não são 🤔
 
 #### Posso usar isso para aplicativos que vão para produção?
 
@@ -124,7 +124,7 @@ R: Sim, se você tiver seguido corretamente os passos verá que configuramos par
 
 R: Para utilizar o babel plugin root import para Web é necessário realizar algumas outras configurações.
 
-## Quem disse que tudo na vida são flores?
+## Mas nem tudo na vida são flores 🔴
 
 É possível que se encontre bugs na biblioteca. Caso você encontre por favor relate no repositório oficial do babel plugin root import e ajude a comunidade a criar uma biblioteca melhor.
 
