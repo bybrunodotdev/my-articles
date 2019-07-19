@@ -58,7 +58,7 @@ With everything set up, it is now possible to import your files using "@" as a p
 
 **@/Pages/Auth/SignIn**
 
-## A pinch of _VueJS_ please
+## A pinch of _VueJS_ please 🍲
 
 I am using the "@" copying the _Vuejs_. Use the prefix that you find interesting. It can be the '~' or '#' for example.
 
@@ -114,8 +114,8 @@ In the _eslint_ configuration file include the following properties.
   }
 ```
 
-## Questions that look stupid but are not
-
+## Questions that look stupid but are not 🤔
+ 
 #### Can I use this for applications going to production?
 
 Answer: Yes, if you have followed the steps correctly you will see that we configured for production in babel.config.js
@@ -124,7 +124,7 @@ Answer: Yes, if you have followed the steps correctly you will see that we confi
 
 Answer: To use the babel plugin root import for Web, you need to perform some other settings
 
-## Who said that everything in life is flowers?
+## But not everything in life is flowers 🔴
 
 You may encounter bugs in the library. If you find it please report it in the official babel plugin root import repository and help the community create a better library.
 
