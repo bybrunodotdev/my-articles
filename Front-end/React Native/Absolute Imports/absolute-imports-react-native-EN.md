@@ -64,7 +64,7 @@ I am using the "@" copying the _Vuejs_. Use the prefix that you find interesting
 
 ## Excuse me, could you show me the Way? 🚶
 
-Using this technique we will have our first problem, the absence of autocomplete. This is because VSCode still does not understand that the "@" refers to the "src" folder of our project. To solve this we will create in the root directory a configuration file that ** _VSCode _ ** understands, called _jsconfig.json_.
+Using this technique we will have our first problem, the absence of autocomplete. This is because VSCode still does not understand that the "@" refers to the "src" folder of our project. To solve this we will create in the root directory a configuration file that **_VSCode_** understands, called _jsconfig.json_.
 
 Inside it include the settings below:
 
