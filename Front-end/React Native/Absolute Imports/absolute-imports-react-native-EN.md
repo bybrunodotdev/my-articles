@@ -115,7 +115,7 @@ In the _eslint_ configuration file include the following properties.
 ```
 
 ## Questions that look stupid but are not 🤔
- 
+
 #### Can I use this for applications going to production?
 
 Answer: Yes, if you have followed the steps correctly you will see that we configured for production in babel.config.js
@@ -133,4 +133,5 @@ You may encounter bugs in the library. If you find it please report it in the of
 Follow me on twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade)
 
 Help me translate this article into other languages.
+If you have received an error in the translation please make the repository to make a correction. I'll be very grateful.
 [Access Repository](https://github.com/heybrunoandrade/my-articles/tree/master/Front-end/React%20Native/Absolute%20Imports)
