@@ -85,6 +85,7 @@ Saiba mais sobre o arquivo _jsconfig.json_:
 [https://code.visualstudio.com/docs/languages/jsconfig](https://code.visualstudio.com/docs/languages/jsconfig)
 
 Agora sim! 😎
+
 ![](https://thepracticaldev.s3.amazonaws.com/i/1rbf5ujyinvkv5rirjv2.png)
 
 ## Uma ferramenta que gosta de reclamar! 😡
