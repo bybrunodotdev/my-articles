@@ -132,4 +132,4 @@ R: Para utilizar o babel plugin root import para Web é necessário realizar alg
 Me siga no Twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade)
 
 Me ajude a traduzir esse artigo para outros idiomas.
-[Acessar Repositório]()
+[Acessar Repositório](https://github.com/heybrunoandrade/my-articles/tree/master/Front-end/React%20Native/Absolute%20Imports)
