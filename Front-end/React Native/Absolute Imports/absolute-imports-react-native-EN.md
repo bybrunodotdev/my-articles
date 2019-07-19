@@ -10,7 +10,7 @@ The problem is when the project grows and the folders are deeply nested, I belie
 
 Now imagine that the Utils folder has changed directory. 😢
 
-Para resolvermos esse problema, utilize uma biblioteca chamada _Babel Plugin Root Import_. Com essa biblioteca podemos utilizar caracteres coringas para apontar o diretório root de nossa aplicação, que geralmente é a pasta “src”. 😍
+To resolve this issue, use a library called _Babel Plugin Root Import_. With a list that can be used to encode the root of our application, which is a "src" folder. 😍
 
 ## It is practicing that you learn
 
@@ -52,21 +52,21 @@ module.exports = {
 };
 ```
 
-Com tudo configurado, já é possível realizar as importações dos seus arquivos utilizando “@” como prefixo. Segue um exemplo abaixo:
+With everything set up, it is now possible to import your files using "@" as a prefix. Here's an example below:
 
 **@/Components/Form**
 
 **@/Pages/Auth/SignIn**
 
-## Uma pitada de _VueJS_ por favor
+## A pinch of _VueJS_ please
 
-Estou utilizando o “@” para imitar o _Vuejs_. Utilize o prefixo que você achar interessante. Pode ser o ‘~’ ou ‘#’ por exemplo.
+I am using the "@" copying the _Vuejs_. Use the prefix that you find interesting. It can be the '~' or '#' for example.
 
-## Com licença, você poderia me mostrar o Caminho? 🚶
+## Excuse me, could you show me the Way? 🚶
 
-Utilizando esta técnica teremos o nosso primeiro problema, a ausência do autocomplete. Isso acontece porque o VSCode ainda não entende que o “@” faz referência a pasta “src” do nosso projeto. Para resolver isso vamos criar no diretório raiz um arquivo de configuração que o **_VSCode_** entende, chamado de _jsconfig.json_.
+Using this technique we will have our first problem, the absence of autocomplete. This is because VSCode still does not understand that the "@" refers to the "src" folder of our project. To solve this we will create in the root directory a configuration file that ** _VSCode _ ** understands, called _jsconfig.json_.
 
-Dentro dele inclua as configurações abaixo:
+Inside it include the settings below:
 
 ```json
 {
@@ -81,20 +81,20 @@ Dentro dele inclua as configurações abaixo:
 }
 ```
 
-Saiba mais sobre o arquivo _jsconfig.json_:  
+Learn more about the _jsconfig.json_ file:
 [https://code.visualstudio.com/docs/languages/jsconfig](https://code.visualstudio.com/docs/languages/jsconfig)
 
 Agora sim! 😎
 
 ![](https://thepracticaldev.s3.amazonaws.com/i/1rbf5ujyinvkv5rirjv2.png)
 
-## Uma ferramenta que gosta de reclamar! 😡
+## A tool that likes to complain! 😡
 
-Caso esteja utilizando o _eslint_ em seu projeto, irá receber muitas reclamações das importações que você faz utilizando o prefixo ‘@’.
+If you are using _eslint_ in your project, you will receive many complaints about the imports you make using the prefix '@'.
 
-Felizmente, existe uma biblioteca que serve para avisarmos ao _eslint_ que está tudo certo.
+Luckily, there is a library that lets you tell _eslint_ that everything is okay.
 
-Adicione:
+Add:
 
 ```console
     babylu@Project: ~$ yarn add eslint-import-resolver-babel-plugin-root-import -D
@@ -104,7 +104,7 @@ Adicione:
     babylu@Project: ~$ npm install eslint-import-resolver-babel-plugin-root-import -D
 ```
 
-No arquivo de configuração do _eslint_ inclua as seguintes propriedades.
+In the _eslint_ configuration file include the following properties.
 
 ```json
   "settings": {
@@ -114,23 +114,23 @@ No arquivo de configuração do _eslint_ inclua as seguintes propriedades.
   }
 ```
 
-## Perguntas que parecem idiotas mas não são
+## Questions that look stupid but are not
 
-#### Posso usar isso para aplicativos que vão para produção?
+#### Can I use this for applications going to production?
 
-R: Sim, se você tiver seguido corretamente os passos verá que configuramos para produção no babel.config.js
+Answer: Yes, if you have followed the steps correctly you will see that we configured for production in babel.config.js
 
-#### Posso usar no React para web?
+#### Can I use React for web?
 
-R: Para utilizar o babel plugin root import para Web é necessário realizar algumas outras configurações.
+Answer: To use the babel plugin root import for Web, you need to perform some other settings
 
-## Quem disse que tudo na vida são flores?
+## Who said that everything in life is flowers?
 
-É possível que se encontre bugs na biblioteca. Caso você encontre por favor relate no repositório oficial do babel plugin root import e ajude a comunidade a criar uma biblioteca melhor.
+You may encounter bugs in the library. If you find it please report it in the official babel plugin root import repository and help the community create a better library.
 
 [https://github.com/entwicklerstube/babel-plugin-root-import/issues](https://github.com/entwicklerstube/babel-plugin-root-import/issues)
 
-Me siga no Twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade)
+Follow me on twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade)
 
-Me ajude a traduzir esse artigo para outros idiomas.
-[Acessar Repositório](https://github.com/heybrunoandrade/my-articles/tree/master/Front-end/React%20Native/Absolute%20Imports)
+Help me translate this article into other languages.
+[Access Repository](https://github.com/heybrunoandrade/my-articles/tree/master/Front-end/React%20Native/Absolute%20Imports)
