@@ -81,7 +81,7 @@ module.exports = {
 
 Estou utilizando o _alias_ "@" para imitar o Vuejs. Você pode utilizar o _alias_ que achar interessante, tais como "~" ou "#", por exemplo.
 
-## Me chamo VSCode e não estou entendendo nada 😢
+## Meu VSCode não está entendendo nada 😢
 
 Ao fazer isso iremos nos deparar com o primeiro problema, o autocomplete. Já estamos acostumados a ter autocomplete quando vamos importar os arquivos utilizando caminhos relativos.
 
