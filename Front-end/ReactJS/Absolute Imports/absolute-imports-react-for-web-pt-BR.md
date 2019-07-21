@@ -105,6 +105,8 @@ Inclua as seguintes propriedades dentro do arquivo:
 
 Incrível!
 
+![](https://thepracticaldev.s3.amazonaws.com/i/d8dnvamm9u4v3xhp0hl3.png)
+
 Agora está funcionando perfeitamente, utilize o comando: npm start para executar o seu projeto.
 
 ## Uma ferramenta que gosta de reclamar o tempo todo! 😡
