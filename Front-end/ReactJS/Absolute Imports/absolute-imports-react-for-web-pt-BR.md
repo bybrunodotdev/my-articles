@@ -166,7 +166,7 @@ Mas calma, use-a sem medo para realização desse tutorial.
 
 ## É hora de dar tchau 😩
 
-Estava gostando tando de passar esse tempo com você 😩. Caso queira saber o que ando aprontando por ai, me siga no Twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade).
+Estava gostando tando de passar esse tempo com você 😢. Caso queira saber o que ando aprontando por ai, me siga no Twitter [@heybrunoandrade](https://twitter.com/heybrunoandrade).
 
 Ajude sua rede de amigos desenvolvedores a pararem de sofrer com importações relativas compartilhando este artigo!
 
