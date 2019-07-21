@@ -14,7 +14,7 @@ Bom, o motivo disso é que você estará quebrando as "garantias" do CRA. Mas ca
 
 Mas felizmente, utilizando ferramentas como o [craco](https://github.com/sharegate/craco), podemos voltar facilmente para as configurações padrões do CRA caso as coisas deem erradas. E isso é incrível!
 
-Já que vamos mexer somente no _alias_, você não tem muito com o que se preocupar, o craco irá injetar as novas configurações que fizermos no arquivo _craco.config.js _ dentro das configurações padrões do CRA.
+Já que vamos mexer somente no _alias_, você não tem muito com o que se preocupar, o craco irá injetar as novas configurações que fizermos no arquivo _craco.config.js_ dentro das configurações padrões do CRA.
 
 Caso você não saiba, o intuito de configurar caminhos absolutos em um projeto feito com Reactjs, é para facilitar a importação de arquivos. Para isso podemos utilizar um símbolo para representar um diretório root dos nossos códigos. Veja um exemplo abaixo:
 
@@ -141,27 +141,26 @@ npm i eslint-plugin-import eslint-import-resolver-alias -D
 
 ## Perguntas que parecem idiotas mas não são 😳💬
 
-### Posso utilizar esta técnica em projetos que vão para produção?
+#### Posso utilizar esta técnica em projetos que vão para produção?
 
 Resposta: Sim, você pode utilizar sem problema nenhum!
 
-### Posso usar no React Native?
+#### Posso usar no React Native?
 
 Resposta: Não, a configuração no React Native é diferente, mostro como fazer neste artigo:
 [Configurando Caminhos absolutos no React Native](https://dev.to/heybrunoandrade/configurando-caminhos-absolutos-no-react-native-pt-br-471o).
 
-### Meus arquivos de testes podem dar erro?
+#### Meus arquivos de testes podem dar erro?
 
 Resposta: Se você tiver seguido corretamente o passo a passo, provavelmente não. Se você mudou o símbolo que vai utilizar como _alias_, certifique-se de que tenha colocado isso também na configuração do jest lá no arquivo craco.config.js na propriedade _moduleNameMapper_.
 
-### Por que não está utilizando o Babel plugin root import?
+#### Por que não está utilizando o Babel plugin root import?
 
 Resposta: Diferentemente do Babel plugin root import, importamos somente uma biblioteca que resolve o problema, além de ser simples de utilizar. Outra coisa que andou me incomodando é que não está dando suporte ao CRA 3.0, por isso a utilização do Craco.
 
 ## Imagine se tudo na vida funcionasse perfeitamente 🦄
 
-Assim como qualquer lib, é possível que se encontre bugs no @craco, caso encontre por favor abra uma
-[issue no projeto oficial](https://github.com/sharegate/craco/issues) para que a comunidade melhore a biblioteca e torne-a funcional para todos.
+Assim como qualquer lib, é possível que se encontre bugs no @craco, caso encontre por favor abra uma [issue no projeto oficial](https://github.com/sharegate/craco/issues) para que a comunidade melhore a biblioteca e torne-a funcional para todos.
 
 Mas calma, use-a sem medo para realização desse tutorial.
 
@@ -171,6 +170,6 @@ Estava gostando tando de passar esse tempo com você 😩. Caso queira saber o q
 
 Ajude sua rede de amigos desenvolvedores a pararem de sofrer com importações relativas compartilhando este artigo!
 
-Ahhh, se encontrou algo errado, você pode realizar a correção. Estou colocando os artigos no Github e você pode acessar [Clicando aqui](https://github.com/heybrunoandrade/my-articles).
+Ahhh, se encontrou algo errado, é possível realizar a correção. Estou colocando os artigos no Github e você pode acessar [Clicando aqui](https://github.com/heybrunoandrade/my-articles).
 
 Um grande abraço e até a próxima!
