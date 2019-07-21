@@ -54,7 +54,7 @@ Substitua o "react-scripts" por _"craco"_.
 
 ```
 
-Isso fará com que os scripts do CRA seja executado pelo _craco_ o qual irá realizar injeções das configurações que estaram no arquivo _craco.config.js_.
+Isso fará com que os scripts do CRA seja executado pelo _craco_ o qual irá realizar injeções das configurações que estarão no arquivo _craco.config.js_.
 
 🛠 Crie o arquivo no diretório raiz do projeto chamado: _craco.config.js_ e inclua as configurações abaixo:
 
