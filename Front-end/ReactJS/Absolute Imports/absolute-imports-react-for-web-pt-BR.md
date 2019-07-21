@@ -170,6 +170,7 @@ Estava gostando tando de passar esse tempo com você 😩. Caso queira saber o q
 
 Ajude sua rede de amigos desenvolvedores a pararem de sofrer com importações relativas compartilhando este artigo!
 
-Ahhh, se encontrou algo errado, é possível realizar a correção. Estou colocando os artigos no Github e você pode acessar [Clicando aqui](https://github.com/heybrunoandrade/my-articles).
+Me ajude realizar correções ou traduzir este artigo para outros idiomas.
+[Acessar Repositório](https://github.com/heybrunoandrade/my-articles/tree/master/Front-end/ReactJS/Absolute%20Imports).
 
 Um grande abraço e até a próxima!
